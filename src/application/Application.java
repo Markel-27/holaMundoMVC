@@ -11,7 +11,7 @@ package application;
  */
 public class Application {
 
-    /**
+    /**This is the application class for the hello world MVC app
      * @param args the command line arguments
      */
     public static void main(String[] args) {
