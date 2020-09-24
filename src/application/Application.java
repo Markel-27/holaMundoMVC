@@ -6,8 +6,8 @@
 package application;
 
 /**
- *
- * @author 2dam
+ *This is the 
+ * @author markel
  */
 public class Application {
 
