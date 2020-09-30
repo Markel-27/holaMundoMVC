@@ -17,13 +17,12 @@ public class ModelImplementation implements Model{
      * @param greeting 
      */
     
-    
     @Override
-    public void getGreeting(String greeting){
+    public String getGreeting(){
   
-       ResourceBundle miResource = ResourceBundle.getBundle("almacen.greeting.properties");
-       greeting = miResource.getString("greeting");
-       System.out.println(greeting);
+       ResourceBundle miResource = ResourceBundle.getBundle("almacen.greeting");
+       String greeting = miResource.getString("greeting");
+       return greeting;
     } 
     
 }
