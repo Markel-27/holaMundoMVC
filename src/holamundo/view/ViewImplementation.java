@@ -14,13 +14,9 @@ public class ViewImplementation implements View{
      * 
      * @param greeting 
      */
-        @Override
-        public void showGreeting (String greeting){
+    @Override
+    public void showGreeting(String greeting){
+        System.out.println(greeting);
+    }
             
-            System.out.println("holamundo.view.ViewImplementation.showGreeting()");
-        }
-        
-        
-
-    
 }
