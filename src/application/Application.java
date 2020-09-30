@@ -5,17 +5,28 @@
  */
 package application;
 
+import holamundo.controller.Controller;
+import holamundo.model.ModelFactory;
+import holamundo.view.ViewFactory;
+
 /**
- *
- * @author 2dam
+ *This is the rdfghjlkñjkjhfdghg
+ * @author markel
  */
 public class Application {
 
     /**This is the application class for the hello world MVC app
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+        public static void main(String[] args){
         // TODO code application logic here
-    }
+        ModelFactory miFactoriaModelo = new ModelFactory();
+        ViewFactory miFactoriaVista = new ViewFactory();
+       
+        Controller miControlador;
+        miControlador = new Controller();
+        
+        miControlador.run(miFactoriaVista.getView(),miFactoriaModelo.getModel());
     
+    }
 }
