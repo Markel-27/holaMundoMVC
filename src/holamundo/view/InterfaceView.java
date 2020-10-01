@@ -7,7 +7,8 @@ package holamundo.view;
 
 /**
  *
- * @author pocoy
+ * @author markel
+ * @author moroni
  */
 import javax.swing.*;
 import holamundo.view.View;
@@ -22,7 +23,7 @@ public class InterfaceView extends JFrame implements View{
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
  
         //Add the ubiquitous "Hello World" label.
-        JLabel label = new JLabel("HelloWorld");
+        JLabel label = new JLabel("greeting");
         frame.getContentPane().add(label);
  
         //Display the window.

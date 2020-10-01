@@ -8,10 +8,11 @@ package holamundo.view;
 /**
  * view implementation show the interface in text
  * @author markel
+ * @author moroni
  */
 public class ViewImplementation implements View{
     /**
-     * 
+     * Muestra el saludo que hemos cogido antes del archivo
      * @param greeting 
      */
     @Override

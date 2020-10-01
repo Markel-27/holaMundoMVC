@@ -8,6 +8,7 @@ package holamundo.view;
 /**
  * Contains view methods for being used by a controller 
  * @author markel 
+ * @author moroni
  */
 public interface View {
     /**

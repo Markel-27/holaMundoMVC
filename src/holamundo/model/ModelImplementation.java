@@ -9,11 +9,12 @@ import java.util.ResourceBundle;
 
 /**
  *
- * @author 2dam
+ * @author markel
+ * @author moroni
  */
 public class ModelImplementation implements Model{
     /**
-     * 
+     * Aqui se coge el saludo del fichero
      * @param greeting 
      */
     

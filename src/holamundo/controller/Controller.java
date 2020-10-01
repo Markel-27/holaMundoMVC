@@ -10,11 +10,12 @@ import holamundo.view.View;
 
 /**
  * Esta clase contiene al controlador de mi aplicacion, esta trabaja con ambas interfaces.
- * @author 2dam
+ * @author markel
+ * @author moroni
  */
 public class Controller{
     /**
-     * 
+     * El run ejecuta el getGreeting y el showGreeting de la vista para luego usarlo en la aplicacion
      * @param vista Una vista, tenemos una clase que implementa la interfaz vista.
      * @param modelo Un modelo, tenemos una clase que implementa la interfaz modelo.
      */

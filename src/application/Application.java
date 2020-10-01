@@ -10,7 +10,7 @@ import holamundo.model.ModelFactory;
 import holamundo.view.ViewFactory;
 import holamundo.view.InterfaceView;
 /**
- *This is the rdfghjlkñjkjhfdghg
+ *
  * @author markel
  */
 public class Application {
