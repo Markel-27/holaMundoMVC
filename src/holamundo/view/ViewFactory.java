@@ -17,7 +17,7 @@ public class ViewFactory {
      * @return 
      */
     public static View getView(){
-        return new ViewImplementation();
+        return new InterfaceView();
     }
     
 }
