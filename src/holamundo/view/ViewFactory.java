@@ -7,20 +7,17 @@ package holamundo.view;
 
 /**
  *
- * @author 2dam
+ * @author markel
+ * @author moroni
  */
 public class ViewFactory {
     
-  /* public ViewImplementation getView() {//ESTA MAL TIENE QUE DEVOLVER LA INTERFAZ NO LA CLASE POLIMORFISMO
-            return new ViewImplementation();
-    }*/
-    
     /**
-     * 
+     * Coge el getView y se lo manda al ViewImplementation
      * @return 
      */
     public static View getView(){
-        return new ViewImplementation();
+        return new InterfaceView();
     }
     
 }

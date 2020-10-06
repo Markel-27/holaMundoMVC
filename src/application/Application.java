@@ -8,9 +8,8 @@ package application;
 import holamundo.controller.Controller;
 import holamundo.model.ModelFactory;
 import holamundo.view.ViewFactory;
-
 /**
- *This is the rdfghjlkñjkjhfdghg
+ *
  * @author markel
  */
 public class Application {
@@ -27,6 +26,7 @@ public class Application {
         miControlador = new Controller();
         
         miControlador.run(miFactoriaVista.getView(),miFactoriaModelo.getModel());
-    
-    }
+    //Schedule a job for the event-dispatching thread:
+        //creating and showing this application's GUI.
+                }
 }

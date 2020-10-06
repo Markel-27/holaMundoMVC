@@ -7,13 +7,13 @@ package holamundo.model;
 
 /**
  * Esta clase es una factoria para crear objetos de el modelo.
- * @author Endika Ubierna Lopez
+ * @author markel
+ * @author moroni
  */
 public class ModelFactory{
     /**
      * 
-     * @return Retorna un nuevo modelo. El tipo que devuelve es la interfaz pero en realidad por polimorfismo 
-     * devuelve una nueva instancia de la clase ModelImplementation
+     * Se retorna un nuevo modelo. Al ser polimorfismo devuelve una nueva instancia de la clase ModelImplementation
      */
      public static Model getModel(){
         return new ModelImplementation();
