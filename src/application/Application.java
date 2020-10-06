@@ -8,7 +8,6 @@ package application;
 import holamundo.controller.Controller;
 import holamundo.model.ModelFactory;
 import holamundo.view.ViewFactory;
-import holamundo.view.InterfaceView;
 /**
  *
  * @author markel
