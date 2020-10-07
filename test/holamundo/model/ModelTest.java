@@ -5,16 +5,17 @@
  */
 package holamundo.model;
 
+import static com.sun.xml.internal.ws.dump.LoggingDumpTube.Position.After;
+import static com.sun.xml.internal.ws.dump.LoggingDumpTube.Position.Before;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 /**
  *
- * @author pocoy
+ * @author Moroni
  */
 public class ModelTest {
     
@@ -52,11 +53,19 @@ public class ModelTest {
         fail("The test case is a prototype.");
     }
     }
+
+    private void fail(String the_test_case_is_a_prototype) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    private void assertEquals(String expResult, String result) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     public class ModelImpl implements Model {
 
         @Override
         public String getGreeting() {
-            return "Hola mundo mvc";
+            return "Hola Mundo MVC";
         }
     }
     
