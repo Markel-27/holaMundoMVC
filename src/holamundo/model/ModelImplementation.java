@@ -23,6 +23,11 @@ public class ModelImplementation implements Model{
      * Aqui se coge el saludo del fichero
      * @param greeting 
      */
+    /*
+    ResourceBundle miResource = ResourceBundle.getBundle("almacen.greeting");
+       String greeting = miResource.getString("greeting");
+       return greeting;
+    */
     private Connection con;
         private Statement stmt;
         private ResourceBundle rb = ResourceBundle.getBundle("almacen.config");
@@ -47,8 +52,8 @@ public class ModelImplementation implements Model{
         public void closeConnection() throws SQLException{
             con.close();
         }
-    @Override
-    public String getGreeting(){
+
+        public String getGreeting(){
   String sal="";
        try {
                 openConnection();
