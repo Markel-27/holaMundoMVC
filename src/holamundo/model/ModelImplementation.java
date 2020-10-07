@@ -23,6 +23,7 @@ public class ModelImplementation implements Model{
      * Aqui se coge el saludo del fichero
      * @param greeting 
      */
+    
     /*
     ResourceBundle miResource = ResourceBundle.getBundle("almacen.greeting");
        String greeting = miResource.getString("greeting");
@@ -71,6 +72,7 @@ public class ModelImplementation implements Model{
             }
        return sal;
     } 
+
     
 }
  

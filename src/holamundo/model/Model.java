@@ -9,13 +9,15 @@ package holamundo.model;
  *
  * @author markel
  */
-public interface model {
+public interface Model {
     /**
      * gets greeting in UI
      * @param greeting 
      */
     
-    public void getgreeting (String greeting);
+    public String getGreeting();
+
+   
     
     
 }
